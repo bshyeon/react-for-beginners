@@ -5,8 +5,8 @@ function Movie({ coverImg, title, runtime, rating, description, genres }) {
     <div>
       <img src={coverImg} alt={title} />
       <h2>{title}</h2>
-      <h4>{runtime} minutes</h4>
-      <h4>{rating}</h4>
+      <h4>Runtime: {runtime} minutes</h4>
+      <h4>Rating: {rating}/10</h4>
       <p>{description}</p>
       <ul>
         {genres.map((g) => (
