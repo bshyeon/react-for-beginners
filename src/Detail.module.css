@@ -1,0 +1,15 @@
+.detail {
+  margin: 30px 100px;
+}
+
+.detailFlex {
+  margin-top: 20px;
+  display: flex;
+}
+
+.p {
+  margin-left: 20px;
+  max-width: 70%;
+  font-size: 18px;
+  line-height: 25px;
+}
